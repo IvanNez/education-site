@@ -1,0 +1,105 @@
+/* SCREEN SIZE */
+
+@media (max-width: 575.98px) {
+    .main-div-width {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .main-div-width {
+        margin-left: 39px;
+        margin-right: 39px;
+    }
+}
+
+@media all {
+    .main-div-width {
+        margin-left: 55px;
+        margin-right: 54px;
+    }
+}
+
+
+/* HEADER */
+
+.header {
+    background-color: #343A40;
+}
+
+
+/* JUMBOTRON */
+
+@media (max-width: 575.98px) {
+    .jumbotron {
+        padding: 32px 15px 48px 31px!important;
+        height: 370px;
+    }
+}
+
+.jumbotron {
+    /* BACKGROUND */
+    background-size: cover;
+    background-color: #E9ECEF;
+    min-height: 342px;
+    /* MAIN TEXT FOR JUMBOTRON */
+    font-family: "Roboto";
+    font-size: 72px;
+    padding-top: 64px;
+    padding-left: 49px;
+    text-align: left;
+}
+
+.jumbotron-text {
+    font-size: 16px;
+    font-weight: 400px;
+    font-family: "Roboto";
+    max-width: 700px;
+    max-height: 58px;
+}
+
+
+/* PROFILE CARD */
+
+.card {
+    margin-top: 32px;
+}
+
+
+/* NAME PROFILE */
+
+.name-profile {
+    font-weight: bold;
+}
+
+
+/* TABLE */
+
+.table-work {
+    margin-top: 32px;
+}
+
+
+/* SCREEN SIZE TABLE */
+
+@media (max-width: 575.98px) {
+    .table-work {
+        overflow: scroll;
+    }
+}
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #F5F5F5;
+    min-height: 57px;
+    margin-top: 73px;
+}
+
+.footer-text {
+    padding-left: 39px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
